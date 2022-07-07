@@ -1,0 +1,68 @@
+table a{
+    text-decoration: none;
+    width: 55px;
+    height: 35px;
+    background-color:#32CD32;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.judul h1{
+    text-align: center;
+}
+
+.adddata{
+    background-color: #EEEEEE;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.regist form{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -200px;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 220px;
+ }
+
+ .hal-login{
+    position: absolute;
+    margin-top: -200px;
+    margin-left: -200px;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 300px;
+    /* background-color: #00416A; */
+    /* background-color: linear-gradient(to right,#ACBB78,#799F0C); */
+    /* background: linear-gradient( #f05053, #e1eec3);  */
+    background:radial-gradient(circle at top left, #fdbb2d, #22c1c3);  
+    border-radius: 10px;
+    padding-top: 10px;
+ }
+ .hal-login h1{
+    text-align: center;
+ }
+
+.log-out{
+    width: 50px;
+    height: 32px;
+    background-color: #DC143C;
+    color: white;
+}
+
+
+@media screen and (max-width: 999.98px) {
+
+    table a{
+    display: grid;
+}
+}
+
